@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<head>   <title> Restaurante DonGato </title>
+<head>   <title> Restaurante La Ratatouille </title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
 <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/estilos2.css"/>
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="fonts.css"/>
+
 
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -19,17 +20,17 @@
 <div class="wrapper">
 <div class="logo">
 
-Restaurante DonGato
-<img src="img/DonGato.jpg">
+Restaurante La Ratatouille
+<img src="img/LaRatatouille.jpg">
 </div>
     <nav>
         <div class="menu-icon" onclick="toggleMenu()">
             &#9776; <!-- Icono de hamburguesa -->
         </div>
         <ul id="menu">
-            <li><a href="../Restaurante-DonGato.php">Inicio</a></li>
+            <li><a href="../Restaurante-La-Ratatouille.php">Inicio</a></li>
             <li><a href="paginas/Platillos.php">Platillos y Postres</a></li>
-            <li><a href="paginas/Reservaciones.php">Reserva</a></li>
+            <li><a href="paginas/Restaurantes.php">Restaurantes</a></li>
         </ul>
     </nav>
 </div>
@@ -118,9 +119,10 @@ $(function(){
 <center> Buscanos en las Redes Sociales  
 <br>
 <br>
-<pre>Facebook <a href="https://www.facebook.com/"><body link="#fff" vlink="fff" alink="#fff"> <span class="icon-facebook2"></span></a> Twitter <a href="https://twitter.com/?lang=es">   <span class="icon-twitter"><body link="#fff" vlink="fff" alink="#fff"> <a/></span> </pre>
+<pre>Facebook <a href="https://www.facebook.com/"><body link="#fff" vlink="fff" alink="#fff"> <span class="icon-facebook2"></span></a> Whatsapp <a href="https://web.whatsapp.com/">   <span class="icon-twitter"><body link="#fff" vlink="fff" alink="#fff"> <a/></span> </pre>
 <br>
-<span class="icon-home"></span>  Derechos Reservados por Jossymar Molina Rodriguez--UCEM
+<span class="icon-home"></span>  Derechos Reservados por Jossymar Molina Rodriguez --UCEM-- 2024
+<br>
 <br>
 <br>
 </center>

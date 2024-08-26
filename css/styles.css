@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos del menú */
+nav {
+    background-color: #252932;
+    padding: 10px;
+    position: relative;
+}
+
+.menu-icon {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none; /* Oculto por defecto */
+    background-color: #252932;
+}
+
+#menu li {
+    border-bottom: 1px solid #444;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+#menu li a:hover {
+    background-color: #575757;
+}
+
+/* Mostrar el menú en pantallas más grandes */
+@media (min-width: 600px) {
+    .menu-icon {
+        display: none;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu li {
+        border: none;
+    }
+    #menu li a {
+        padding: 10px 20px;
+    }
+}

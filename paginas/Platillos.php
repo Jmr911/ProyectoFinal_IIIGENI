@@ -19,16 +19,16 @@
 <header>
 <div class="wrapper">
 <div class="logo">
-Restaurante DonGato
+Restaurante La Ratatouille
 </div>
     <nav>
         <div class="menu-icon" onclick="toggleMenu()">
             &#9776; <!-- Icono de hamburguesa -->
         </div>
         <ul id="menu">
-            <li><a href="../Restaurante-DonGato.php">Inicio</a></li>
+            <li><a href="../Restaurante-La-Ratatouille.php">Inicio</a></li>
             <li><a href="Platillos.php">Platillos y Postres</a></li>
-            <li><a href="Reservaciones.php">Reserva</a></li>
+            <li><a href="Restaurantes.php">Restaurantes</a></li>
         </ul>
     </nav>
 </div>
@@ -42,7 +42,7 @@ Restaurante DonGato
 </tr>
 
 <tr><td> <img src="../img/d1.jpg"> </td> <td><p>COULANT</a></p>
-  <p> Coulant es un conocido postre de chocolate patentado por el chef francés Michel Brasen que se presenta como pequeño bizcocho de chocolate con el interior fundido. De este modo, cuando el comensal corta el bizcocho de su interior se brota una cremosa salsa de chocolate que se extiende por el plato. La receta en Bavette-Gastronomia</a>.</p></td>
+  <p>Coulant es un conocido postre de chocolate patentado por el chef francés Michel Brasen que se presenta como pequeño bizcocho de chocolate con el interior fundido. De este modo, cuando el comensal corta el bizcocho de su interior se brota una cremosa salsa de chocolate que se extiende por el plato. La receta en Bavette-Gastronomia</a>.</p></td>
 </tr>
 
 <tr><td> <img src="../img/d2.jpg"> </td> <td>CROISSANTS FRANCESES</a><br>
@@ -132,9 +132,11 @@ Restaurante DonGato
 <center> Buscanos en las Redes Sociales  
 <br>
 <br>
-<pre>Facebook <a href="https://www.facebook.com/"><body link="#fff" vlink="fff" alink="#fff"> <span class="icon-facebook2"></span></a> Twitter <a href="https://twitter.com/?lang=es">   <span class="icon-twitter"><body link="#fff" vlink="fff" alink="#fff"> <a/></span> </pre>
+<pre>Facebook <a href="https://www.facebook.com/"><body link="#fff" vlink="fff" alink="#fff"> <span class="icon-facebook2"></span></a> Whatsapp <a href="https://web.whatsapp.com/">   <span class="icon-twitter"><body link="#fff" vlink="fff" alink="#fff"> <a/></span> </pre>
 <br>
-<span class="icon-home"></span>  Derechos Reservados por Jossymar Molina Rodriguez<br>
+<span class="icon-home"></span>  Derechos Reservados por Jossymar Molina Rodriguez --UCEM-- 2024
+<br>
+<br>
 <br>
 </center>
 </footer>
