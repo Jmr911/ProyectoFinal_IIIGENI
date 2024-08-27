@@ -1,101 +1,213 @@
 <!DOCTYPE html>
-<head>   <title> Restaurantes </title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
-<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
-<link rel="stylesheet" type="text/css" href="../css/estilos3.css"/>
-<link rel="stylesheet" type="text/css" href="../css/estilos2.css"/>
-<link rel="stylesheet" type="text/css" href="../fonts.css"/>
-<link rel="stylesheet" type="text/css" href="../css/estilo4.css"/>
-<link rel="stylesheet" type="text/css" href="../css/final.css"/>
-<link rel="stylesheet" href="../css/styles.css">
+<head>
+    <title> Restaurantes </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="header.js"></script>
-<script src="arriba.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/estilos3.css" /><!-- Estilo del Slider-->
+    <link rel="stylesheet" type="text/css" href="../css/estilos2.css" /> <!-- Estilo menu y colores-->
+    <link rel="stylesheet" type="text/css" href="../fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../css/estilo4.css" /><!-- Estilo Platillos y Postres-->
+    <link rel="stylesheet" href="../css/styles.css"><!-- Estilo Menus Hamburguer-->
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="header.js"></script>
+    <script src="arriba.js"></script>
 </head>
 
 <body>
-<header>
-<div class="wrapper">
-<div class="logo">
-Restaurante La Ratatouille
-</div>
-    <nav>
-        <div class="menu-icon" onclick="toggleMenu()">
-            &#9776; <!-- Icono de hamburguesa -->
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                Restaurante La Ratatouille
+            </div>
+            <nav>
+                <div class="menu-icon" onclick="toggleMenu()">
+                    &#9776; <!-- Icono de hamburguesa -->
+                </div>
+                <ul id="menu">
+                    <li><a href="../Restaurante-La-Ratatouille.php">Inicio</a></li>
+                    <li><a href="Platillos_y_Postres.php">Platillos y Postres</a></li>
+                    <li><a href="Restaurantes.php">Restaurantes</a></li>
+                </ul>
+            </nav>
         </div>
-        <ul id="menu">
-            <li><a href="../Restaurante-La-Ratatouille.php">Inicio</a></li>
-            <li><a href="Platillos.php">Platillos y Postres</a></li>
-            <li><a href="Restaurantes.php">Restaurantes</a></li>
-        </ul>
-    </nav>
-</div>
 
-</header>
+    </header>
 
 
-<center>
+    <center>
 
-</table>
-<table>
-<tr><td colspan="2"><center><h1>San Jose </h1></center> </td> <br>
-</tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <h1>San Jose </h1>
+                    </center>
+                </td> <br>
+            </tr>
 
-<tr><td><p> El país y principalmente San José han experimentado un crecimiento y desarrollo comercial muy grande en la última década, por consecuente se han tenido que construir grandes centros comerciales para albergar el creciente comercio nacional.
+            <tr>
+                <td>
+                    <p> ¿Buscas una experiencia culinaria única en el corazón de San José? ¡No busques más! En [Nombre
+                        del Restaurante], te ofrecemos:
+                        🍽️ Platos Exquisitos: Desde la auténtica cocina costarricense hasta delicias internacionales,
+                        cada bocado es una explosión de sabor.
+                        🍷 Ambiente Acogedor: Disfruta de una atmósfera cálida y elegante, perfecta para cenas
+                        románticas, reuniones familiares o encuentros con amigos.
+                        🎶 Música en Vivo: Acompaña tu comida con la mejor música en vivo de artistas locales.
 
-En los centros comerciales de la ciudad se pueden encontrar: tiendas de ropa, zapatos, electrónica de consumo, especializadas, por departamentos etc. Además de farmacias, bancos, supermercados, carnicerías, restaurantes, ferreterías, bazares, algunos cuentan con cines y áreas de juego para niños.</p> </td>
- </td> <td> <img src="../img/r4.jpg"> </td> </tr>
+                </td>
+                <td> <img src="../img/r4.jpg"> </td>
+            </tr>
 
-<tr><td> <img src="../img/r5.jpg"> </td> <td> <p> Es un área urbana de alrededor de 550 m de largo y 8200 m² de construcción, en una extensión de 7 cuadras de la ciudad: entre la avenida 2ª y avenida 14 (en dirección norte sur) y entre las calles 7 y 11 
-La zona comenzó a desarrollarse como un núcleo comercial de origen chino durante las últimas décadas del siglo XX, básicamente con la instalación de supermercados, tiendas y algunos restaurantes cuyos propietarios son de esa nacionalidad.
+            <tr>
+                <td> <img src="../img/r5.jpg"> </td>
+                <td>
+                    <p> 🌿🌿 📍Ubicación Perfecta: Estamos ubicados en el corazón de San José, fácil acceso y amplio
+                        estacionamiento disponible.
 
-El barrio fue oficialmente inaugurado el miércoles 5 de diciembre de 2012</p></td>
-</tr>
+                        ¡Ven y vive una experiencia gastronómica inolvidable!
 
- 
- <tr><td colspan="2"><center><h1>Guanacaste </h1></center> </td>
-</tr>
-<tr><td colspan="2"><center><img src="../img/r6.jpg"></center> </td>
-</tr><tr><td colspan="2"> Tierra de grandes llanuras y haciendas ganaderas, ha producido costumbres y tradiciones relacionadas con estos aspectos. De herencia española es la corrida de toros, que se realiza en rústicos redondeles de madera, donde resalta la monta rústica al estilo guanacasteco, considerada la expresión autóctona más representativa de las tradiciones en Guanacaste, que se practica en los diferentes cantones de la provincia. La monta de toros al estilo guanacasteco se diferencia de otras montas porque se utiliza una espuela corrediza, así como la forma en que se coloca la correa que rodea el pecho del toro. Los topes y las carreras de cintas son también expresión cultural propia de esta provincia. En estas tradiciones, el caballo toma protagonismo como medio básico de transporte en una provincia de grandes extensiones planas. La destreza de cabalgar potros totalmente chúcaros, montados sin pretal, es otra tradición que aún persiste en Guanacaste</td>
-</tr> 
- <tr><td colspan="2"><center><h1>Heredia </h1></center> </td>
-</tr>
-
-<tr><td> <img src="../img/r7.jpg"> </td> <td> <p>A diferencia de la carreta típica costarricense, que es pintada con un estilo particular y es de mayor influencia en el Valle Central Se distingue también por su ausencia de paredes, ya que a diferencia de la carreta típica costarricense, usada para transportar granos (café principalmente), la carreta guanacasteca se usa para el transporte de maderas, troncos y ramas. La pica'e leña es un tradicional desfile de carretas guanacastecas que se realiza anualmente en la ciudad de Nicoya, que marca el inicio de las festividades en honor a la Virgen de Guadalupe.</p>
-
-<tr><td><p>La ciudad surgió alrededor de una ayuda de parroquia a principios del siglo XVIII con el nombre de Cubujuquí. En 1763 se le dio la denominación oficial de villa de Heredia, pero el título de villa fue revocado en 1779. Se le conoció popularmente como Villa Vieja, pero esa práctica fue prohibida por las autoridades en 1801. Las Cortes españolas le concedieron nuevamente el título de villa en 1813. Se le conoce popularmente además como "La Ciudad de las Flores", el apellido Flores de una familia influyente, por su paisaje y sus hermosas mujeres.
-
-</p></td>
- </td> <td> <img src="../img/r11.jpg"> </td> </tr>
- 
- <tr><td colspan="2"><center><h1>Puntarenas </h1></center> </td>
-</tr>
-
-<tr><td> <img src="../img/r12.jpg"> </td> <td><p> La ciudad de Puntarenas, capital de la provincia, es rica en tradición, historia y costumbres. Cuenta con diversos lugares de interés turístico, entre los que pueden mencionarse, además de la extensa playa, el Paseo de los Turistas, el Balneario de Barrio El Carmen, el boulevard de la catedral, el parque marino y la Casa de la Cultura. Uno de los sitios turísticos por excelencia es el Paseo de los Turistas, una avenida peatonal que bordea el océano, y en la cual se encuentra toda clase de negocios: hoteles, bares, heladerías, discotecas, etc.</p></td>
-</tr>
+                        📞 Reserva Ahora: +506 2228 0356🌿🌿</p>
+                </td>
+            </tr>
 
 
-</table>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <h1>Guanacaste </h1>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center><img src="../img/r6.jpg"></center>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> 🌴 Bienvenidos a Restaurante La Ratatouille 🌴
 
-</center>
+                    ¿Estás listo para una experiencia culinaria inolvidable en el paraíso de Guanacaste? En Restaurante
+                    La Ratatouille, te ofrecemos:
 
-<script src="../js/script.js"></script>
+                    🍽️ Delicias Locales e Internacionales: Disfruta de una fusión de sabores costarricenses e
+                    internacionales, preparados con ingredientes frescos y locales.
 
-<footer>
-<br>
-<br>
-<center> Buscanos en las Redes Sociales  
-<br>
-<br>
-<pre>Facebook <a href="https://www.facebook.com/"><body link="#fff" vlink="fff" alink="#fff"> <span class="icon-facebook2"></span></a> Whatsapp <a href="https://web.whatsapp.com/">   <span class="icon-twitter"><body link="#fff" vlink="fff" alink="#fff"> <a/></span> </pre>
-<br>
-<span class="icon-home"></span>  Derechos Reservados por Jossymar Molina Rodriguez --UCEM-- 2024
-<br>
-<br>
-<br>
-</center>
-</footer>
+                    🌅 Vistas Espectaculares: Relájate con vistas impresionantes del océano y los paisajes naturales de
+                    Guanacaste mientras disfrutas de tu comida.
+
+                    🎶 Ambiente Vibrante: Vive la mejor música en vivo y un ambiente acogedor que te hará sentir como en
+                    casa.
+
+                    📍 Ubicación Ideal: En el corazón de Guanacaste, con fácil acceso y amplio estacionamiento
+                    disponible.
+
+                    ¡Ven y descubre el verdadero sabor de Guanacaste!
+
+                    📞 Reserva Ahora: Llama al +506 2228 0356 para hacer tu reserva.</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <h1>Heredia </h1>
+                    </center>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <img src="../img/r7.jpg"> </td>
+                <td>
+                    <p>🌿🌿
+
+                        📍 Ubicación Ideal: En el corazón de Heredia, con fácil acceso y amplio estacionamiento
+                        disponible.
+
+                        ¡Ven y vive una experiencia gastronómica inolvidable en Heredia!
+
+                        📞 Reserva Ahora: Llama al +506 2228 0356 para hacer tu reserva🌿🌿.</p>
+
+            <tr>
+                <td>
+                    <p>Bienvenidos a Restaurante La Ratatouille 🌿
+
+                        ¿Buscas una experiencia culinaria única en Heredia? En Restaurante La Ratatouille , te
+                        ofrecemos:
+
+                        🍽️ Gastronomía Exquisita: Disfruta de una variedad de platos costarricenses e internacionales,
+                        preparados con ingredientes frescos y locales.
+
+                        🌳 Ambiente Acogedor: Relájate en un entorno cálido y elegante, perfecto para cualquier ocasión,
+                        desde cenas románticas hasta reuniones familiares.
+
+                        🎶 Música en Vivo: Acompaña tu comida con la mejor música en vivo de artistas locales.
+
+
+
+                    </p>
+                </td>
+                </td>
+                <td> <img src="../img/r11.jpg"> </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <h1>Puntarenas </h1>
+                    </center>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <img src="../img/r12.jpg"> </td>
+                <td>
+                    <p> 🌊 ¿Listo para una experiencia culinaria única en la hermosa Puntarenas? En Restaurante La
+                        Ratatouille, te ofrecemos:🌊
+
+
+
+                        🍽️ Delicias Marinas y Más: Disfruta de una variedad de platos frescos del mar y especialidades
+                        locales, preparados con ingredientes de la más alta calidad.
+                        🌅 Vistas Increíbles: Relájate con vistas espectaculares del océano mientras disfrutas de tu
+                        comida en un ambiente acogedor y elegante.
+                        📍 Ubicación Perfecta: Encuéntranos en el corazón de Puntarenas 📞 Reserva Ahora: Llama al +506
+                        2228 0356 para hacer tu reserva.</p>
+                </td>
+            </tr>
+
+
+        </table>
+
+    </center>
+
+    <script src="../js/script.js"></script>
+
+    <footer>
+        <br>
+        <br>
+        <center> 
+            Búscanos en las Redes Sociales
+            <br>
+            <br>
+            <div>
+            Facebook 
+                <a href="https://www.facebook.com/">
+                    <span class="icon-facebook2"></span>
+                </a> 
+                Whatsapp 
+                <a href="https://web.whatsapp.com/">
+                    <img src="img/Whatsapp.png" alt="Whatsapp">
+                    <span class="icon-Whatsapp"></span>
+                </a>
+            </div>
+            <br>
+            <span class="icon-home"></span> Derechos Reservados por Jossymar Molina Rodriguez --UCEM-- 2024
+            <br>
+            <br>
+            <br>
+        </center>
+    </footer>
 </body>
 </html>
