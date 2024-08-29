@@ -22,6 +22,7 @@
     <div class="wrapper">
       <div class="logo">
         Restaurante La Ratatouille
+        <img style="margin-top: 5px;" src="../img/LaRatatouille.png">
       </div>
       <nav>
         <div class="menu-icon" onclick="toggleMenu()">
@@ -49,7 +50,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/COULANT.jpg"> </td>
+        <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/COULANT.jpg"> </td>
         <td>
           <p>COULANT</a></p>
           <p>Coulant es un conocido postre de chocolate patentado por el chef francés Michel Brasen que se presenta como
@@ -60,7 +61,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/d2.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/d2.jpg"> </td>
         <td>CROISSANTS FRANCESES</a><br>
           Aunque su origen no es francés, según parece es austriaco, se ha convertido en todo un símbolo en todas las
           boulangeries de Francia, que cuando pasa por delante te inunda ese maravilloso olor a croissant recién hecho.
@@ -68,7 +69,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/d3.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/d3.jpg"> </td>
         <td>MACARONS DE VAINILLA Y MERMELADA EN FORMA DE NUBE<br>
           El Macaron fue inventado en Italia en el siglo VIII, posteriormente la receta fue llevada a Francia por
           Catalina de Medicis al haberse casado con el Duque de Orleans, futuro rey de Francia en el siglo XVII.<br>
@@ -87,7 +88,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/a1.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/a1.jpg"> </td>
         <td>
           <p>SALMON ASADO</p>
           <p>El protagonista de esta receta es el salmón, un pescado azul muy rico en ácidos grasos. Estos ácidos
@@ -102,7 +103,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/a2.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/a2.jpg"> </td>
         <td>
           <p>GALET</p>
           <p>Galet es un término catalán con el que se conoce un tipo de pasta que tiene forma de caracol, en castellano
@@ -113,7 +114,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/a3.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/a3.jpg"> </td>
         <td>
           <p>CONEJO ASADO</p>
           <p>El conejo se incluye dentro de las carnes blancas, las cuales se caracterizan por su bajo contenido en
@@ -126,7 +127,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/a4.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/a4.jpg"> </td>
         <td>
           <p>CORDERO ASADO</p>
           <p>Este plato, está cocinado con una base de Carnes y pertenece a los platos de la cocina Tradicional. Por
@@ -136,7 +137,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/a5.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/a5.jpg"> </td>
         <td>
           <p>BESUGO ASADO</p>
           <p>El besugo, protagonista indiscutible de la receta que nos ocupa, pertenece a la familia de los pescados
@@ -160,7 +161,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/c1.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/c1.jpg"> </td>
         <td>
           <p>EL RAPE</p>
           <p>El rape, protagonista indiscutible de la receta que nos ocupa, es un pescado blanco, con un contenido
@@ -172,7 +173,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/c2.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/c2.jpg"> </td>
         <td>
           <p>PICHON ASADO</p>
           <p>La carne de pichón posee un escaso contenido en grasas y un alto contenido en proteínas de buena calidad,
@@ -183,7 +184,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/c3.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/c3.jpg"> </td>
         <td>
           <p>CALZONE DE POLLO CON BARBACOA Y VERDURAS</p>
           <ol data-behavior="sortable"
@@ -202,7 +203,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/c6.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/c6.jpg"> </td>
         <td>
           <p>LOMO ASADO CON PIÑA</p>
           <p>La carne de cerdo es buena y sustanciosa de cualquier forma que se prepare. El lomo es una de las partes
@@ -225,7 +226,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/p11.jpeg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/p11.jpeg"> </td>
         <td>CHARLOTA DE FRESAS Y CREMA BAVAROISE A LA VAINILLA</a><br>
           La charlota es una tarta que consiste en el forrando de un molde de bordes altos con bizcochos de soletilla o
           genovesa para modelar la línea exterior del pastel y darle ese aspecto característico. Su interior se rellena
@@ -235,7 +236,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/p12.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/p12.jpg"> </td>
         <td>TARTA TATIN DE MANZANA</a><br>
           Una de las recetas más famosas de Francia.<strong> </strong>Es una variante de la tarta de manzana en el que
           las manzanas han sido caramelizadas en mantequilla y azúcar antes de incorporar la masa. Su peculiaridad es
@@ -244,7 +245,7 @@
       </tr>
 
       <tr>
-        <td> <img src="../img/p13.jpg"> </td>
+      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/p13.jpg"> </td>
         <td>PARIS –BREST RELLENO DE NATA MONTADA</a><br>
           Postre de origen francés, y que debe su nombre a una carrera de bicicletas entre Paris y Brest. Es una corona
           de masa Choux rellena y espolvoreada con almendra y azúcar glas. Aunque ya hay numerosa versiones, incluso se
@@ -266,9 +267,9 @@
             Búscanos en las Redes Sociales
             <br>
             <br>
-            <div>
             Facebook 
                 <a href="https://www.facebook.com/">
+                <img src="../img/Facebook1.png" alt="Facebook">
                     <span class="icon-facebook2"></span>
                 </a> 
                 Whatsapp 

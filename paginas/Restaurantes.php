@@ -20,6 +20,7 @@
         <div class="wrapper">
             <div class="logo">
                 Restaurante La Ratatouille
+                <img style="margin-top: 5px;" src="../img/LaRatatouille.png">
             </div>
             <nav>
                 <div class="menu-icon" onclick="toggleMenu()">
@@ -59,11 +60,11 @@
                         🎶 Música en Vivo: Acompaña tu comida con la mejor música en vivo de artistas locales.
 
                 </td>
-                <td> <img src="../img/r4.jpg"> </td>
+                <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/r4.jpg"> </td>
             </tr>
 
             <tr>
-                <td> <img src="../img/r5.jpg"> </td>
+            <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/r5.jpg"> </td>
                 <td>
                     <p> 🌿🌿 📍Ubicación Perfecta: Estamos ubicados en el corazón de San José, fácil acceso y amplio
                         estacionamiento disponible.
@@ -84,7 +85,7 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    <center><img src="../img/r6.jpg"></center>
+                    <center> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"  src="../img/r6.jpg"></center>
                 </td>
             </tr>
             <tr>
@@ -118,7 +119,7 @@
             </tr>
 
             <tr>
-                <td> <img src="../img/r7.jpg"> </td>
+            <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"  src="../img/r7.jpg"> </td>
                 <td>
                     <p>🌿🌿
 
@@ -149,7 +150,7 @@
                     </p>
                 </td>
                 </td>
-                <td> <img src="../img/r11.jpg"> </td>
+                <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"  src="../img/r11.jpg"> </td>
             </tr>
 
             <tr>
@@ -161,7 +162,7 @@
             </tr>
 
             <tr>
-                <td> <img src="../img/r12.jpg"> </td>
+            <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"  src="../img/r12.jpg"> </td>
                 <td>
                     <p> 🌊 ¿Listo para una experiencia culinaria única en la hermosa Puntarenas? En Restaurante La
                         Ratatouille, te ofrecemos:🌊
@@ -194,11 +195,12 @@
             <div>
             Facebook 
                 <a href="https://www.facebook.com/">
+                <img src="../img/Facebook1.png" alt="Facebook">
                     <span class="icon-facebook2"></span>
                 </a> 
                 Whatsapp 
                 <a href="https://web.whatsapp.com/">
-                    <img src="img/Whatsapp.png" alt="Whatsapp">
+                    <img src="../img/Whatsapp.png" alt="Whatsapp">
                     <span class="icon-Whatsapp"></span>
                 </a>
             </div>

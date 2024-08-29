@@ -8,6 +8,9 @@
   <link rel="stylesheet" type="text/css" href="css/estilos2.css" /> <!-- Estilo menu y colores-->
   <link rel="stylesheet" type="text/css" href="fonts.css" />
   <link rel="stylesheet" type="text/css" href="css/styles.css"> <!-- Estilo Menus Hamburguer-->
+  <link rel="stylesheet" type="text/css" href="css/accordion.css"> <!-- Estilo Accordion-->
+
+
 
 
 
@@ -37,7 +40,7 @@
     </div>
 
   </header>
-  <span class="ir-arriba icon-arrow-up"></span>
+
   <section class="contenido wrapper">
     <br>
 
@@ -56,89 +59,220 @@
       <img src="img/p7.jpg">
       <img src="img/p8.jpg">
       <img src="img/p9.jpg">
-      <img src="img/p10.jpg" </div>
+      <img src="img/p10.jpg">
     </div>
+  </div>
 
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="js/jquery.slides.js"></script>
-    <script src="script.js"></script>
-    <script>
-      $(function () {
-        $(".slides").slidesjs({
-          play: {
-            active: true,
-            // [boolean] Generate the play and stop buttons.
-            // You cannot use your own buttons. Sorry.
-            effect: "slide",
-            // [string] Can be either "slide" or "fade".
-            interval: 3000,
-            // [number] Time spent on each slide in milliseconds.
-            auto: true,
-            // [boolean] Start playing the slideshow on load.
-            swap: true,
-            // [boolean] show/hide stop and play buttons
-            pauseOnHover: false,
-            // [boolean] pause a playing slideshow on hover
-            restartDelay: 2500
-            // [number] restart delay on inactive slideshow
-          }
-        });
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.slides.js"></script>
+  <script>
+    $(function () {
+      $(".slides").slidesjs({
+        play: {
+          active: true,
+          // [boolean] Generate the play and stop buttons.
+          // You cannot use your own buttons. Sorry.
+          effect: "slide",
+          // [string] Can be either "slide" or "fade".
+          interval: 3000,
+          // [number] Time spent on each slide in milliseconds.
+          auto: true,
+          // [boolean] Start playing the slideshow on load.
+          swap: true,
+          // [boolean] show/hide stop and play buttons
+          pauseOnHover: false,
+          // [boolean] pause a playing slideshow on hover
+          restartDelay: 2500
+          // [number] restart delay on inactive slideshow
+        }
       });
-    </script>
+    });
+  </script>
+  <br>
+  <h1 class="wrapper">
+    <center> Nuestros Restaurantes </center>
+  </h1>
 
+  <br><!-- Accordion Desplegable-->
+  <center>
+    <button style="width: 55%;" class="accordion">
+      <center> San José </center>
+    </button>
+    <div style="width: 55%;" class="panel">
+      <br>
+      <a>Visita Nuestro Restaurante en <a
+          href="http://localhost/Proyectos-IIIGEN1/ProyectoFinal-IIIGEN1/paginas/Restaurantes.php">San José </a></a> .
+      </p>
+    </div>
+  </center>
+
+  <center>
+    <button style="width: 55%;" class="accordion">
+      <center> Guanacaste </center>
+    </button>
+    <div style="width: 55%;" class="panel">
+      <br>
+      <a>Visita Nuestro Restaurante en <a
+          href="http://localhost/Proyectos-IIIGEN1/ProyectoFinal-IIIGEN1/paginas/Restaurantes.php">Guanacaste </a></a> .
+      </p>
+    </div>
+  </center>
+
+  <center>
+    <button style="width: 55%;" class="accordion">
+      <center> Heredia </center>
+    </button>
+    <div style="width: 55%;" class="panel">
+      <br>
+      <a>Visita Nuestro Restaurante en <a
+          href="http://localhost/Proyectos-IIIGEN1/ProyectoFinal-IIIGEN1/paginas/Restaurantes.php">Heredia </a></a> .
+      </p>
+    </div>
+  </center>
+
+  <center>
+    <button style="width: 55%;" class="accordion">
+      <center> Puntarenas </center>
+    </button>
+    <div style="width: 55%;" class="panel">
+      <br>
+      <a>Visita Nuestro Restaurante en <a
+          href="http://localhost/Proyectos-IIIGEN1/ProyectoFinal-IIIGEN1/paginas/Restaurantes.php">Puntarenas </a></a> .
+      </p>
+    </div>
+  </center>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    for (var i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+  <!-- Accordion Desplegable-->
+  <br>
+  <br>
+  <br>
+
+  <p class="wrapper">&nbsp;</p>
+  <br>
+  <h1 class="wrapper">
+    <center>Especialidades</center>
+  </h1> <br>
+  <br>
+
+  <!-- Cards-->
+  <style>
+    .card img,
+    .card-content h2,
+    .card-content a {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover img,
+    .card:hover h2,
+    .card:hover a {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-content {
+      background-color: rgba(255, 255, 255, 0);/* Fondo completamente transparente */
+      text-align: center;/* Centrar el texto */
+    }
+
+    .card-content h2 {
+      color: #000000;
+      font-weight: 300;
+    }
+  </style>
+  </head>
+
+  <body>
+    <div style="display: flex; justify-content: center; gap: 20px;">
+      <div>
+        <div class="card">
+          <img src="img/lugar.jpg" width="500px" height="250px">
+          <div class="card-content">
+            <br>
+            <h2>Puntarenas, Especialidad en Mariscos</h2>
+            <br>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/r1.jpg" width="500px" height="250px">
+          <div class="card-content">
+            <br>
+            <h2>Heredia, Especialidad en Pastas</h2>
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <img src="img/r2.jpg" width="500px" height="250px">
+          <div class="card-content">
+            <br>
+            <h2>Guanacaste, Especialidad en Carnes</h2>
+            <br>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/r3.jpg" width="500px" height="250px">
+          <div class="card-content">
+            <br>
+            <h2>San José, Especialidad en Sushi</h2>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- Cards-->
+
+
+    <br>
     <p class="wrapper">&nbsp;</p>
     <br>
-    <h1 class="wrapper">Nuestros Restaurantes </h1> <br>
-    <br>
-    <table border=2 class="wrapper">
-      <tr>
-        <td><img src="img/lugar.jpg" width="500px" height="250px">
-        </td>
-        <td><img src="img/r1.jpg" width="500px" height="250px">
-        </td>
-      </tr>
-      <tr>
-        <td><img src="img/r2.jpg" width="500px" height="250px">
-        </td>
-        <td><img src="img/r3.jpg" width="500px" height="250px">
-        </td>
-      </tr>
-    </table>
-
-
-    <br>
-    <p class="wrapper">&nbsp;</p>
-    <br>
     <p class="wrapper">&nbsp;</p>
 
     <br>
-    
-    <script src="js/script.js"></script>
 
     <footer>
+      <br>
+      <br>
+      <center>
+        Búscanos en las Redes Sociales
         <br>
         <br>
-        <center> 
-            Búscanos en las Redes Sociales
-            <br>
-            <br>
-            <div>
-                Facebook 
-                <a href="https://www.facebook.com/">
-                    <span class="icon-facebook2"></span>
-                </a> 
-                Whatsapp 
-                <a href="https://web.whatsapp.com/">
-                    <img src="img/Whatsapp.png" alt="Whatsapp">
-                    <span class="icon-Whatsapp"></span>
-                </a>
-            </div>
-            <br>
-            <span class="icon-home"></span> Derechos Reservados por Jossymar Molina Rodriguez --UCEM-- 2024
-            <br>
-            <br>
-            <br>
-        </center>
+        Facebook
+        <a href="https://www.facebook.com/">
+          <img src="img/Facebook1.png" alt="Facebook">
+          <span class="icon-facebook2"></span>
+        </a>
+        Whatsapp
+        <a href="https://web.whatsapp.com/">
+          <img src="img/Whatsapp.png" alt="Whatsapp">
+          <span class="icon-Whatsapp"></span>
+        </a>
+        </div>
+        <br>
+        <span class="icon-home"></span> Derechos Reservados por Jossymar Molina Rodriguez --UCEM-- 2024
+        <br>
+        <br>
+        <br>
+      </center>
     </footer>
-</body>
-</html>
+  </body>
+
+  </html>
