@@ -68,7 +68,7 @@
           <br>
           Aunque su origen no es francés, según parece es austriaco, se ha convertido en todo un símbolo en todas las
           boulangeries de Francia, que cuando pasa por delante te inunda ese maravilloso olor a croissant recién hecho.
-          La receta en el blog de Ann Petit sweet</a>.
+          La receta en el blog de Ann Petit sweet.</a>.
         </td>
       </tr>
 

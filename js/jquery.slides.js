@@ -12,6 +12,7 @@
         active: true,
         effect: "slide"
       },
+      
       pagination: {
         active: true,
         effect: "slide"

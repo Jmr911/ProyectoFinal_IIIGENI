@@ -128,7 +128,7 @@
 
                         ¡Ven y vive una experiencia gastronómica inolvidable en Heredia!
 
-                        📞 Reserva Ahora: Llama al +506 2228 0356 para hacer tu reserva🌿🌿.</p>
+                        📞 Reserva Ahora: Llama al +506 2228 0356 para hacer tu reserva.🌿🌿.</p>
 
             <tr>
                 <td>
