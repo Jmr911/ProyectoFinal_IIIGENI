@@ -42,7 +42,7 @@
 
     <p>&nbsp;</p>
   </section>
-  <h1 class="wrapper">Top 10 Platillos de la Semana </h1>
+  <h1 class="wrapper">Top 10 Platillos de la Semana ***** </h1>
 
   <div class="main">
     <div class="slides">
