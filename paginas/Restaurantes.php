@@ -12,7 +12,7 @@
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="header.js"></script>
-    <script src="arriba.js"></script>
+    <script src="../js/script.js"></script>
 </head>
 
 <body>
@@ -183,8 +183,6 @@
 
     </center>
 
-    <script src="../js/script.js"></script>
-
     <footer>
         <br>
         <br>
@@ -204,6 +202,7 @@
                     <span class="icon-Whatsapp"></span>
                 </a>
             </div>
+            <br>
             <br>
             <span class="icon-home"></span> Derechos Reservados por Jossymar Molina Rodriguez --UCEM-- 2024
             <br>

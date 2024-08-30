@@ -7,16 +7,12 @@
   <link rel="stylesheet" type="text/css" href="css/estilos3.css" /> <!-- Estilo del Slider-->
   <link rel="stylesheet" type="text/css" href="css/estilos2.css" /> <!-- Estilo menu y colores-->
   <link rel="stylesheet" type="text/css" href="fonts.css" />
-  <link rel="stylesheet" type="text/css" href="css/styles.css"> <!-- Estilo Menus Hamburguer-->
-  <link rel="stylesheet" type="text/css" href="css/accordion.css"> <!-- Estilo Accordion-->
-
-
-
-
+  <link rel="stylesheet" type="text/css" href="css/styles.css"/> <!-- Estilo Menus Hamburguer-->
+  <link rel="stylesheet" type="text/css" href="css/accordion.css"/> <!-- Estilo Accordion-->
 
   <script src="http://code.jquery.com/jquery-latest.js"></script>
-  <script src="header.js"></script>
-  <script src="arriba.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -46,7 +42,7 @@
 
     <p>&nbsp;</p>
   </section>
-  <h1 class="wrapper">Platillos </h1>
+  <h1 class="wrapper">Top 10 Platillos de la Semana </h1>
 
   <div class="main">
     <div class="slides">
@@ -93,7 +89,8 @@
     <center> Nuestros Restaurantes </center>
   </h1>
 
-  <br><!-- Accordion Desplegable-->
+
+  <br><!--Inicia Accordion Desplegable-->
   <center>
     <button style="width: 55%;" class="accordion">
       <center> San José </center>
@@ -156,8 +153,8 @@
       });
     }
   </script>
-  <!-- Accordion Desplegable-->
-  <br>
+  <!-- Finaliza Accordion Desplegable-->
+
   <br>
   <br>
 
@@ -168,7 +165,7 @@
   </h1> <br>
   <br>
 
-  <!-- Cards-->
+  <!--Inician los Cards-->
   <style>
     .card img,
     .card-content h2,
@@ -238,7 +235,7 @@
       </div>
     </div>
     <script src="script.js"></script>
-    <!-- Cards-->
+    <!--Finalizan los Cards-->
 
 
     <br>
@@ -267,6 +264,7 @@
         </a>
         </div>
         <br>
+        <br>
         <span class="icon-home"></span> Derechos Reservados por Jossymar Molina Rodriguez --UCEM-- 2024
         <br>
         <br>
@@ -274,5 +272,4 @@
       </center>
     </footer>
   </body>
-
   </html>

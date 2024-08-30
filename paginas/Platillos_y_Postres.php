@@ -9,12 +9,9 @@
   <link rel="stylesheet" type="text/css" href="../css/estilo4.css" /> <!-- Estilo Platillos y Postres-->
   <link rel="stylesheet" href="../css/styles.css"> <!-- Estilo Menus Hamburguer-->
 
-
-
-
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="header.js"></script>
-  <script src="arriba.js"></script>
+  <script src="../js/script.js"></script>
 </head>
 
 <body>
@@ -50,9 +47,12 @@
       </tr>
 
       <tr>
-        <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/COULANT.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/COULANT.jpg"> </td>
         <td>
           <p>COULANT</a></p>
+          <br>
           <p>Coulant es un conocido postre de chocolate patentado por el chef francés Michel Brasen que se presenta como
             pequeño bizcocho de chocolate con el interior fundido. De este modo, cuando el comensal corta el bizcocho de
             su interior se brota una cremosa salsa de chocolate que se extiende por el plato. La receta
@@ -61,21 +61,29 @@
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/d2.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/d2.jpg"> </td>
         <td>CROISSANTS FRANCESES</a><br>
+          <br>
           Aunque su origen no es francés, según parece es austriaco, se ha convertido en todo un símbolo en todas las
           boulangeries de Francia, que cuando pasa por delante te inunda ese maravilloso olor a croissant recién hecho.
-          La receta en el blog de Ann Petit sweet</a>.</td>
+          La receta en el blog de Ann Petit sweet</a>.
+        </td>
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/d3.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/d3.jpg"> </td>
         <td>MACARONS DE VAINILLA Y MERMELADA EN FORMA DE NUBE<br>
+          <br>
           El Macaron fue inventado en Italia en el siglo VIII, posteriormente la receta fue llevada a Francia por
           Catalina de Medicis al haberse casado con el Duque de Orleans, futuro rey de Francia en el siglo XVII.<br>
           La creación de los macarons como los conocemos hoy en día es una receta que ha tenido décadas de
           perfeccionamiento, y fue Pierre Desfontaines, pastelero de Ladureé, quien unió por primera vez dos macarons
-          con un ganache. Estos preciosos macarons los tenéis en el blog de </td>
+          con un ganache. Estos preciosos macarons los tenéis en el blog de 
+        </td>
       </tr>
 
 
@@ -88,9 +96,12 @@
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/a1.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/a1.jpg"> </td>
         <td>
           <p>SALMON ASADO</p>
+          <br>
           <p>El protagonista de esta receta es el salmón, un pescado azul muy rico en ácidos grasos. Estos ácidos
             grasos, popularmente conocidos como omega 3, nos van a ayudar a reducir los niveles de colesterol y
             triglicéridos en sangre. El salmón es además muy rico en proteínas de alto valor biológico y en minerales,
@@ -103,9 +114,12 @@
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/a2.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/a2.jpg"> </td>
         <td>
           <p>GALET</p>
+          <br>
           <p>Galet es un término catalán con el que se conoce un tipo de pasta que tiene forma de caracol, en castellano
             se puede conocer con otros nombres como caracolas, codillos, tiburones o lumaconi, aunque actualmente la
             mayoría conoce los galets y además haciendo referencia a este tipo de pasta con el mayor calibre, pues es
@@ -114,9 +128,12 @@
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/a3.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/a3.jpg"> </td>
         <td>
           <p>CONEJO ASADO</p>
+          <br>
           <p>El conejo se incluye dentro de las carnes blancas, las cuales se caracterizan por su bajo contenido en
             grasa. Por ello, el consumo de estas carnes se recomienda a aquellas personas que estén siguiendo dietas de
             adelgazamiento o que tienen restringido dicho nutriente. <br>
@@ -127,9 +144,12 @@
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/a4.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/a4.jpg"> </td>
         <td>
           <p>CORDERO ASADO</p>
+          <br>
           <p>Este plato, está cocinado con una base de Carnes y pertenece a los platos de la cocina Tradicional. Por
             regla general se consume, principalmente, durante Todo el año, y se suele servir a los comensales como
             Segundo plato.</p>
@@ -137,9 +157,12 @@
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/a5.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/a5.jpg"> </td>
         <td>
           <p>BESUGO ASADO</p>
+          <br>
           <p>El besugo, protagonista indiscutible de la receta que nos ocupa, pertenece a la familia de los pescados
             azules, si bien es uno de los más magros dentro de este grupo. Como pescado azul que es, el besugo es una
             excelente fuente de ácidos grasos insaturados, los cuales nos van a ayudar a reducir los niveles de
@@ -161,9 +184,12 @@
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/c1.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/c1.jpg"> </td>
         <td>
           <p>EL RAPE</p>
+          <br>
           <p>El rape, protagonista indiscutible de la receta que nos ocupa, es un pescado blanco, con un contenido
             calórico muy bajo. Por ello, nos encontramos ante un alimento ideal para incluir en dietas de control de
             peso. En esta receta hemos cocinado el rape en una salsa de sidra con almejas. Estas últimas van a
@@ -173,9 +199,12 @@
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/c2.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/c2.jpg"> </td>
         <td>
           <p>PICHON ASADO</p>
+          <br>
           <p>La carne de pichón posee un escaso contenido en grasas y un alto contenido en proteínas de buena calidad,
             aunque si lo cocinamos con la piel, el contenido graso aumentará.</p>
           <p>La berza, por su parte, suma a la receta vitaminas, minerales y fibra, sustancias muy saludables para el
@@ -184,28 +213,28 @@
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/c3.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/c3.jpg"> </td>
         <td>
           <p>CALZONE DE POLLO CON BARBACOA Y VERDURAS</p>
-          <ol data-behavior="sortable"
-            data-sort-url="/es/recetas/164147-pizza-calzone-de-pollo-en-salsa-barbacoa/steps/sort"
-            data-record-list="  <li class='step numbered-list__item card card--sm' data-noteable='#note_list_new_step' id='new_step' data-record='/es/recetas/164147-pizza-calzone-de-pollo-en-salsa-barbacoa/steps'>      <div data-field-group data-mobile-editor='editable_step'>        <div class='numbered-list__contents'>          <div class='media step__description' data-noteable-quote>            <div class='step-image__pc media__img-rev hidden-xs'>              <div class='step-image' data-field='image' data-field-name='image_id' data-ajax-upload='/es/step/images'>      <img class='step-image__container step-image__container--placeholder droppable__placeholder' src='//global.cpcdn.com/en/assets/blank_step-17c926f7cd09f48ae848b5dfe68bcf26cf84cf2129001eee9513dc6c062d83bc.jpg' alt='Blank step 17c926f7cd09f48ae848b5dfe68bcf26cf84cf2129001eee9513dc6c062d83bc' />        <div class='step-image__upload image-upload field-group__hover x-small subtle editor__tool'>        <i class='icf icf_camera '></i> Añadir foto        <input type='file' name='file' />      </div>  </div>              </div>              <div class='media__body prose'>              <div itemprop='recipeInstructions' data-field='textarea' data-field-name='description' data-field-hint='Hacer clic en Intro para añadir otro paso' data-placeholder='Explicar el paso...'>                <p class='step__text'></p>              </div>            </div>          </div>            <div class='field-group__hover pull-right subtle editor__tool editor__tool--pc'>            <a class='faint' tabindex='-1' data-behavior='delete' data-confirm='¿Seguro que quieres borrarlo?' href='#'><i class='icf icf_close '></i></a>            <i data-behavior='handle' class='icf icf_sortable '></i>          </div>        </div>          <div class='step__image-mobile visible-xs-block hidden-print'>                  </div>      </div>      </li>  ">
-            <li data-noteable="#note_list_step_818161" id="step_818161"
-              data-record="/es/recetas/164147-pizza-calzone-de-pollo-en-salsa-barbacoa/steps">Se fríe la cebolla con el
-              pimiento, una vez frito, añadimos el pollo y seguimos friendo. Hemos frito el pollo durante un minuto a
-              fuego fuerte todo el rato, añadimos el vino blanco y dejaremos reducir. Añadios pimienta y sal al gusto.
-              Hemos dejado el vino a fuego fuerte durante 3 minutos, una vez reducido el vino, añadimos la miel, el
-              tomate frito y media taza de agua. Le añadimos orégano al gusto, a mí personalmente me gusta que vaya bien
-              de orégano y solo nos quedará bajar el fuego a fuego medio, dejaremos hasta que reduca la salsa y espese.
-              Y ya estaría listo para comer.</li>
-          </ol>
+          <br>
+          Se fríe la cebolla con el pimiento, una vez frito, añadimos el pollo y seguimos friendo. Hemos frito el pollo
+          durante un minuto a fuego fuerte todo el rato, añadimos el vino blanco y dejaremos reducir. Añadios pimienta y sal al gusto.
+          Hemos dejado el vino a fuego fuerte durante 3 minutos, una vez reducido el vino, añadimos la miel, el
+          tomate frito y media taza de agua. Le añadimos orégano al gusto, a mí personalmente me gusta que vaya bien
+          de orégano y solo nos quedará bajar el fuego a fuego medio, dejaremos hasta que reduca la salsa y espese.
+          Y ya estaría listo para comer
         </td>
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/c6.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/c6.jpg"> </td>
         <td>
           <p>LOMO ASADO CON PIÑA</p>
+          <br>
           <p>La carne de cerdo es buena y sustanciosa de cualquier forma que se prepare. El lomo es una de las partes
             más consumidas de este animal, y suele ser uno de los platos favoritos de los niños. Es un alimento que
             aporta proteínas de buena calidad y su contenido en grasa es bajo, por lo que está indicado en dietas de
@@ -226,8 +255,11 @@
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/p11.jpeg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/p11.jpeg"> </td>
         <td>CHARLOTA DE FRESAS Y CREMA BAVAROISE A LA VAINILLA</a><br>
+          <br>
           La charlota es una tarta que consiste en el forrando de un molde de bordes altos con bizcochos de soletilla o
           genovesa para modelar la línea exterior del pastel y darle ese aspecto característico. Su interior se rellena
           con capas de bizcochos y cremas y finalmente se sirve fría.<br>
@@ -236,17 +268,24 @@
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/p12.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/p12.jpg"> </td>
         <td>TARTA TATIN DE MANZANA</a><br>
+          <br>
           Una de las recetas más famosas de Francia.<strong> </strong>Es una variante de la tarta de manzana en el que
           las manzanas han sido caramelizadas en mantequilla y azúcar antes de incorporar la masa. Su peculiaridad es
           que se trata de una tarta al revés, es decir, para su elaboración las manzanas se ponen debajo y la masa
-          encima. Las llamadas tartas invertidas. La receta en el blog Rezetas de Carmen.</a></td>
+          encima. Las llamadas tartas invertidas. La receta en el blog Rezetas de Carmen.</a>
+        </td>
       </tr>
 
       <tr>
-      <td> <img style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;" src="../img/p13.jpg"> </td>
+        <td> <img
+            style="height: 200px; width: 300px; display: inline-block; padding: 10px; background: #FCF2BD; margin: 5px 25px;"
+            src="../img/p13.jpg"> </td>
         <td>PARIS –BREST RELLENO DE NATA MONTADA</a><br>
+          <br>
           Postre de origen francés, y que debe su nombre a una carrera de bicicletas entre Paris y Brest. Es una corona
           de masa Choux rellena y espolvoreada con almendra y azúcar glas. Aunque ya hay numerosa versiones, incluso se
           ha llegado a hacer cuadrada.<br>
@@ -258,32 +297,32 @@
   </center>
   <br><br>
 
-  <script src="../js/script.js"></script>
-
   <footer>
-        <br>
-        <br>
-        <center> 
-            Búscanos en las Redes Sociales
-            <br>
-            <br>
-            Facebook 
-                <a href="https://www.facebook.com/">
-                <img src="../img/Facebook1.png" alt="Facebook">
-                    <span class="icon-facebook2"></span>
-                </a> 
-                Whatsapp 
-                <a href="https://web.whatsapp.com/">
-                    <img src="../img/Whatsapp.png" alt="Whatsapp">
-                    <span class="icon-Whatsapp"></span>
-                </a>
-            </div>
-            <br>
-            <span class="icon-home"></span> Derechos Reservados por Jossymar Molina Rodriguez --UCEM-- 2024
-            <br>
-            <br>
-            <br>
-        </center>
-    </footer>
+    <br>
+    <br>
+    <center>
+      Búscanos en las Redes Sociales
+      <br>
+      <br>
+      Facebook
+      <a href="https://www.facebook.com/">
+        <img src="../img/Facebook1.png" alt="Facebook">
+        <span class="icon-facebook2"></span>
+      </a>
+      Whatsapp
+      <a href="https://web.whatsapp.com/">
+        <img src="../img/Whatsapp.png" alt="Whatsapp">
+        <span class="icon-Whatsapp"></span>
+      </a>
+      </div>
+      <br>
+      <br>
+      <span class="icon-home"></span> Derechos Reservados por Jossymar Molina Rodriguez --UCEM-- 2024
+      <br>
+      <br>
+      <br>
+    </center>
+  </footer>
 </body>
+
 </html>
